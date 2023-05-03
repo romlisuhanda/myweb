@@ -31,17 +31,6 @@ section {
 	z-index: 99;
 }
 
-/*.variasi {
-	position: absolute;
-	right: -30vh;
-	top: -40vh;
-	background-color: skyblue;
-	width: 300px;
-	height: 300px;
-	z-index: 0;
-	filter: blur(150px);l
-}*/
-
 header h1 {
 	color: grey;
 	font-size: 4vh;
