@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swab');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	background: #f5fffa;
+	overflow-x: hidden;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	backdrop-filter: blur(20px);
+	box-shadow: 0vh 0vh 0.1vh black;
+	z-index: 100;
+}
+
+section {
+
+	z-index: 99;
+}
+
+.variasi {
+	position: absolute;
+	right: -30vh;
+	top: -40vh;
+	background-color: skyblue;
+	width: 300px;
+	height: 300px;
+	z-index: 0;
+	filter: blur(150px);l
+}
+
+header h1 {
+	color: grey;
+	font-size: 4vh;
+}
+
+header .menu {
+	position: relative;
+	right: 7vh;
+	font-size: 3vh;
+	cursor: pointer;
+	font-weight: bold;
+	color: grey;
+} 
+
+
+main #home  {
+	padding-top: 12vh;
+}
+
+main #home .profil {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5vh;
+	/*margin: 5vh;*/
+}
+
+main #home .profil .nama {
+	font-weight: bold;
+}
+
+main #home .profil .nama i {
+	color: blue;
+}
+
+main #home .profil img {
+	margin-bottom: 1vh;
+	border-radius: 50%;
+}
+
+.onlen {
+	width: 2.5vh;
+	height: 2.5vh;
+	position: absolute;
+	background-color: limegreen;
+	bottom: 68vh;
+	right: 61vh;
+	border-radius: 50%;
+	border: 0.1vh solid #f5fffa;
+}
+
+main #home .profil .folower {
+	position: relative;
+	top: ;
+}
+
+main #home .profil .folower ul {
+	list-style: none;
+	margin-top: 1vh;
+	color: grey;
+}
+
+main #home .profil .folower .foll {
+	font-weight: bold;
+	color: black;
+	opacity: 0.8;
+}
+
+main #home .profil button {
+	position: relative;
+	top: 1vh;
+	border: none;
+	background-color: royalblue;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 2vh;
+	/*box-shadow: 0vh 0vh 0.5vh black;
+*/	width: 15vh;
+	padding: 1vh;
+	font-size: 2vh;
+}
+	
+main section {
+	padding: 5vh;
+}
+
+main #about .contn p {
+	opacity: 0.8;
+}
+
+main #about .contn i {
+	position: relative;
+	/*left: 0.4vh;*/
+	color: green;
+	bottom: 0.5vh;
+	right: 0.5vh;
+	font-size: 2vh;
+}
+
+main #about .contn ul {
+	display: flex;
+	list-style: none;
+}
+
+main #about .contn ul li a {
+	display: flex;
+	margin-right: 4vh;
+	/*text-decoration: none;*/
+	text-decoration-color: black;
+	align-items: center;
+	flex-direction: column;
+}
+
+main #about .contn ul li a .icon i{
+	font-size: 3vh;
+}
+
+main #about .contn ul li a .text {
+	font-size: 2vh;
+	color: black;
+}
+
+main #projek {
+	background-color: whitesmoke;
+}
+
+main #projek p {
+	opacity: 0.8;
+}
+
+main #projek a {
+	position: relative;
+	top: 2vh;
+	color: black;
+	text-decoration-color: black;
+	font-weight: bold;
+}
+
+main #projek .foto {
+	margin-top: 10vh;
+}
+
+main #projek .foto img {
+	border-radius: 1vh;
+}
+
+footer {
+	background-color: #181818;
+	padding-top: 5vh;
+	padding: 5vh;
+	color: #fff;
+}
+
+footer p {
+	opacity: 0.8;
+}
+
+footer ul li {
+	list-style: none;
+}
+
+footer ul li a {
+	color: #fff;
+	opacity: 0.8;
+}
+
+nav {
+	background-color: royalblue;
+	margin-top: 10.7vh;
+	position: fixed;
+	z-index: 999;
+	height: 100%;
+	padding: 10vh;
+	left: -30vh;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.awikwok {
+	opacity: 1;
+	transition: 0.5s;
+	left: 0;
+}
+
+nav ul li {
+	list-style: none;
+	line-height: 10vh;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.onlen {
+		display: none;
+	}
+}
