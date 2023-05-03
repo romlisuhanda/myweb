@@ -31,7 +31,7 @@ section {
 	z-index: 99;
 }
 
-.variasi {
+/*.variasi {
 	position: absolute;
 	right: -30vh;
 	top: -40vh;
@@ -40,7 +40,7 @@ section {
 	height: 300px;
 	z-index: 0;
 	filter: blur(150px);l
-}
+}*/
 
 header h1 {
 	color: grey;
