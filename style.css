@@ -17,7 +17,7 @@ body {
 header {
 	position: fixed;
 	width: 100%;
-	padding: 15px;
+	padding: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -27,18 +27,18 @@ header {
 }
 
 section {
-
 	z-index: 99;
 }
 
 header h1 {
 	color: grey;
 	font-size: 4vh;
+	margin-left: 3vh;
 }
 
 header .menu {
 	position: relative;
-	right: 7vh;
+	right: 5vh;
 	font-size: 3vh;
 	cursor: pointer;
 	font-weight: bold;
@@ -124,9 +124,7 @@ main #about .contn i {
 	position: relative;
 	/*left: 0.4vh;*/
 	color: green;
-	bottom: 0.5vh;
-	right: 0.5vh;
-	font-size: 2vh;
+	font-size: 1.5vh;
 }
 
 main #about .contn ul {
@@ -136,7 +134,7 @@ main #about .contn ul {
 
 main #about .contn ul li a {
 	display: flex;
-	margin-right: 4vh;
+	margin-right: 2vh;
 	/*text-decoration: none;*/
 	text-decoration-color: black;
 	align-items: center;
@@ -144,11 +142,11 @@ main #about .contn ul li a {
 }
 
 main #about .contn ul li a .icon i{
-	font-size: 3vh;
+	font-size: 1.9vh;
 }
 
 main #about .contn ul li a .text {
-	font-size: 2vh;
+	font-size: 1.5vh;
 	color: black;
 }
 
@@ -197,15 +195,16 @@ footer ul li a {
 }
 
 nav {
-	background-color: royalblue;
-	margin-top: 10.7vh;
+	backdrop-filter: blur(20px);
+	margin-top: 8vh;
 	position: fixed;
-	z-index: 999;
+	z-index: 99;
 	height: 100%;
 	padding: 10vh;
 	left: -30vh;
 	opacity: 0;
 	transition: 0.5s;
+	box-shadow: 0px 0px 3px grey;
 }
 
 .awikwok {
@@ -220,8 +219,10 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #fff;
+	color: black;
 	text-decoration: none;
+	font-weight: bold;
+	box-shadow: ;
 }
 
 @media screen and (min-width: 1024px) {
