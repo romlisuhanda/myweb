@@ -65,6 +65,10 @@ main #home .profil .nama .fa-circle-check {
 	color: blue;
 }
 
+main #home .profile .nama .salsha {
+	color: grey;
+}
+
 main #home .profil img {
 	margin-bottom: 1vh;
 	border-radius: 50%;
