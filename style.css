@@ -61,7 +61,7 @@ main #home .profil .nama {
 	font-weight: bold;
 }
 
-main #home .profil .nama i {
+main #home .profil .nama .fa-circle-check {
 	color: blue;
 }
 
